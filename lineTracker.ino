@@ -14,3 +14,10 @@ void setSensores(){
 	analogRead(SENSOR_ESQUERDA);
 	analogRead(SENSOR_DIREITA);
 }
+
+void setMotores(){
+	digitalWrite(MOTOR_DIREITO, LOW);
+	digitalWrite(VELOCIDADE_DIREITRA, velocidadeZero);
+	digitalWrite(MOTOR_ESQUERDO, LOW);
+	digitalWrite(VELOCIDADE_DIREITRA);
+}
