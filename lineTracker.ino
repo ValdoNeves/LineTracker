@@ -6,3 +6,4 @@
 #define SENSOR_ESQUERDA A1
 
 const int limiteCorte = 945;
+const int velocidadeNaCurva = 70;
