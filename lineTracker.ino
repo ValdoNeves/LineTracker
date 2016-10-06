@@ -7,3 +7,4 @@
 
 const int limiteCorte = 945;
 const int velocidadeNaCurva = 70;
+const int velocidadePraFrente = 50;
