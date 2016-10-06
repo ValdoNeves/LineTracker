@@ -1,7 +1,7 @@
 #define MOTOR_ESQUERDO 8
 #define MOTOR_DIREITO 7
 #define VELOCIDADE_ESQUERDA 6
-#define VELOCIDADE_DIREITRA 5
+#define VELOCIDADE_DIREITA 5
 #define SENSOR_DIREITA A0
 #define SENSOR_ESQUERDA A1
 
@@ -17,7 +17,7 @@ void setSensores(){
 
 void setMotores(){
 	digitalWrite(MOTOR_DIREITO, LOW);
-	digitalWrite(VELOCIDADE_DIREITRA, velocidadeZero);
+	digitalWrite(VELOCIDADE_DIREITA, velocidadeZero);
 	digitalWrite(MOTOR_ESQUERDO, LOW);
-	digitalWrite(VELOCIDADE_DIREITRA);
+	digitalWrite(VELOCIDADE_DIREITA);
 }
