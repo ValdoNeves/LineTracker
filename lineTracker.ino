@@ -16,8 +16,11 @@ void setSensores(){
 }
 
 void setMotores(){
+	for(int i = 5; i <= 8 ; i++){
+		pinMode(i, OUTPUT);
+	}
 	digitalWrite(MOTOR_DIREITO, LOW);
 	digitalWrite(VELOCIDADE_DIREITA, velocidadeZero);
 	digitalWrite(MOTOR_ESQUERDO, LOW);
-	digitalWrite(VELOCIDADE_DIREITA);
+	digitalWrite(VELOCIDADE_ESQUERDA, velocidadeZero);
 }
