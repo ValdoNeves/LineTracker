@@ -39,3 +39,7 @@ void direcaoASeguir(boolean direcaoEsquerda, boolean direcaoDireita, int velocid
 	digitalWrite(VELOCIDADE_ESQUERDA, velocidade);
 	digitalWrite(VELOCIDADE_DIREITA, velocidade);		
 }
+void setup(){
+	setSensores();
+	setMotores();
+}
