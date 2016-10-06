@@ -4,3 +4,5 @@
 #define VELOCIDADE_DIREITRA 5
 #define SENSOR_DIREITA A0
 #define SENSOR_ESQUERDA A1
+
+const int limiteCorte = 945;
