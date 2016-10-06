@@ -44,5 +44,7 @@ void setup(){
 	setMotores();
 }
 void loop(){
-	
+	if(praFrente()){
+		direcaoASeguir(HIGH, HIGH, velocidadePraFrente);
+	}
 }
