@@ -47,4 +47,7 @@ void loop(){
 	if(praFrente()){
 		direcaoASeguir(HIGH, HIGH, velocidadePraFrente);
 	}
+	else if(viraPraDireita()){
+		direcaoASeguir(HIGH, LOW, velocidadeNaCurva);
+	}
 }
