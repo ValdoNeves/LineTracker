@@ -43,3 +43,6 @@ void setup(){
 	setSensores();
 	setMotores();
 }
+void loop(){
+	
+}
