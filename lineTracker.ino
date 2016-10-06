@@ -9,3 +9,8 @@ const int limiteCorte = 945;
 const int velocidadeNaCurva = 70;
 const int velocidadePraFrente = 50;
 const int velocidadeZero = 0;
+
+void setSensores(){
+	analogRead(SENSOR_ESQUERDA);
+	analogRead(SENSOR_DIREITA);
+}
