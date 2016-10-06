@@ -33,3 +33,9 @@ boolean viraPraDireita(){
 boolean viraPraEsquerda(){
 	return(SENSOR_ESQUERDA > limiteCorte && SENSOR_DIREITA < limiteCorte);
 }
+void direcaoASeguir(boolean direcaoEsquerda, boolean direcaoDireita, int velocidade){
+	digitalWrite(MOTOR_ESQUERDO, direcaoEsquerda);
+	digitalWrite(MOTOR_DIREITO, direcaoDireita);
+	digitalWrite(VELOCIDADE_ESQUERDA, velocidade);
+	digitalWrite(VELOCIDADE_DIREITA, velocidade);		
+}
