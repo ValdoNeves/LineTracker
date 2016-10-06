@@ -30,3 +30,6 @@ boolean paraFrente(){
 boolean viraPraDireita(){
 	return(SENSOR_ESQUERDA < limiteCorte && SENSOR_DIREITA > limiteCorte);
 }
+boolean viraPraEsquerda(){
+	return(SENSOR_ESQUERDA > limiteCorte && SENSOR_DIREITA < limiteCorte);
+}
