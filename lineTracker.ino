@@ -27,3 +27,6 @@ void setMotores(){
 boolean paraFrente(){
 	return(SENSOR_ESQUERDA > limiteCorte && SENSOR_DIREITA > limiteCorte);
 }
+boolean viraPraDireita(){
+	return(SENSOR_ESQUERDA < limiteCorte && SENSOR_DIREITA > limiteCorte);
+}
