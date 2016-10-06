@@ -1,0 +1,2 @@
+#define MOTOR_ESQUERDO 8
+#define MOTOR_DIREITO 7
