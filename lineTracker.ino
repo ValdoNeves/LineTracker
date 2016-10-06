@@ -24,3 +24,6 @@ void setMotores(){
 	digitalWrite(MOTOR_ESQUERDO, LOW);
 	digitalWrite(VELOCIDADE_ESQUERDA, velocidadeZero);
 }
+boolean paraFrente(){
+	return(SENSOR_ESQUERDA > limiteCorte && SENSOR_DIREITA > limiteCorte);
+}
