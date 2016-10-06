@@ -50,4 +50,7 @@ void loop(){
 	else if(viraPraDireita()){
 		direcaoASeguir(HIGH, LOW, velocidadeNaCurva);
 	}
+	else if(viraPraEsquerda()){
+		direcaoASeguir(LOW, HIGH, velocidadeNaCurva);
+	}
 }
